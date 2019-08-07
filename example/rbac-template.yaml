@@ -50,8 +50,8 @@ metadata:
   name: vault-operator-rolebinding
 subjects:
 - kind: ServiceAccount
-  name: <service-account>
-  namespace: <namespace>
+  name: default
+  namespace: vault-operator
 roleRef:
   kind: Role
   name: vault-operator-role
